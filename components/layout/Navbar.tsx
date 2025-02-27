@@ -24,7 +24,8 @@ const Navbar = () => {
         <Image className='h-6 w-6 md:h-8 md:w-8 rounded-full object-cover' src={Profile} alt="profile" />
         <p className='capitalize text-[0.9rem] md:text-sm'>Rowhan sequek</p>
       </div>
-      {/**This is for Mobile */}
+
+      {/**MOBILE NAVIGATION */}
       <div className='md:hidden'>
         <DropdownMenu >
           <DropdownMenuTrigger asChild>

@@ -14,11 +14,7 @@
 }
 div[role=progress]{
   display: grid;
-  place-items: center;
-  background: conic-gradient(
-    oklch(0.623 0.214 259.815) 52%,
-    #dbeafe 1%
-  )
+  place-items: center; 
 }
 
 div[role=progress]::after{
