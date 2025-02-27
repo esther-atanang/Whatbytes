@@ -40,7 +40,7 @@ const formSchema = z.object({
         { message: "You can't score pass 15!" }
     )
 })
-const page = () => {
+const Page = () => {
     const [currentStats, setCurrentStats] = useState({ rank: 1, percentile: 75, score: 5 });
     const[open, setOpen] = useState<boolean>(false)
     //Defined Form
@@ -199,4 +199,4 @@ const page = () => {
     )
 }
 
-export default page;
+export default Page;

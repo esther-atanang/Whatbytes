@@ -19,7 +19,7 @@ const AppSidebar = () => {
 
    useEffect(()=>{
         setCurrentpage(pathname)
-   },[])
+   },[pathname])
 
     const onPageChange = (page: string) => {
         setCurrentpage(page)
